@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricbelt",
+  "version": "${version}",
+  "name": "FabricBelt",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/froco/FabricBelt"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fabricbelt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.frocoa.fabricbelt.fabricbelt.client.FabricBeltClient"
+    ],
+    "main": [
+      "me.frocoa.fabricbelt.fabricbelt.FabricBelt"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
